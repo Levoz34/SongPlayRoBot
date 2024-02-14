@@ -13,10 +13,10 @@ import os
 from config import Config
 
 bot = Client(
-    'SongPlayRoBot',
-    bot_token = Config.BOT_TOKEN,
-    api_id = Config.API_ID,
-    api_hash = Config.API_HASH
+    'HoligrasMusic_Bot',
+    bot_token = Config.6708337733:AAHVz-H4baaHxLO6pUtPlAs47t6TCiHCfy4,
+    api_id = Config.26348115,
+    api_hash = Config.8da1c482cbcd3b30bd76dbf6e57daa18
 )
 
 ## Extra Fns -------------------------------
@@ -38,7 +38,7 @@ def start(client, message):
             [
                 [
                     InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👬', url='https://t.me/Levoz0'),
-                    InlineKeyboardButton('𝐀𝐃𝐃 𝐌𝐄 🤗', url='https://t.me/SongProBot?startgroup=true')
+                    InlineKeyboardButton('𝐀𝐃𝐃 𝐌𝐄 🤗', url='https://t.me/HoligrasMusic_Bot?startgroup=true')
                 ]
             ]
         )
